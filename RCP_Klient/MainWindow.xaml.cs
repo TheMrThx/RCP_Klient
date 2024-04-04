@@ -37,7 +37,7 @@ namespace RCP_Klient
             }
             else
             {
-
+                MessageBox.Show("Zalogowano");
             }
         }
     }
