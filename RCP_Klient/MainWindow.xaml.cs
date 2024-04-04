@@ -27,7 +27,7 @@ namespace RCP_Klient
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            if(string.IsNullOrEmpty(Login) || string.IsNullOrEmpty(Password)){
+            if(string.IsNullOrEmpty(TextBox_Login.Text) || string.IsNullOrEmpty(PasswordBox_Password.Password)){
 
                 MessageBox.Show("Pola login i hasło nie mogą być puste");
 
