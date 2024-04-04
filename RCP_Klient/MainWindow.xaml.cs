@@ -24,9 +24,21 @@ namespace RCP_Klient
         }
 
         string currentVersion = "0.0.1"; //Aktualna wersja programu
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string Login = TextBox_Login.Text;
+            string Password = PasswordBox_Password.Password;
 
+            if(string.IsNullOrEmpty(Login) || string.IsNullOrEmpty(Password)){
+
+                MessageBox.Show("Pola login i hasło nie mogą być puste");
+
+            }
+            else
+            {
+
+            }
         }
     }
 }
